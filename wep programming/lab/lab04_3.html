@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>텍스트 입력폼 </title>
+</head>
+<body>
+<h3>자기 소개서 작성 </h3>
+<hr>
+<form>
+    <table>
+        <tr><td>이름</td> <td><input type="text" value="" size="6"></td></tr>
+        <tr><td>암호</td> <td> <input type="password" value="" maxlength="4" size="10"></td></tr>
+        <tr><td>국적</td> <td><input type="text" size="10" list="country_name"></td></tr>
+        <tr><td>자기소개</td><td><textarea cols="40" rows="7">
+            여기에 자기소개를 쓰세요.
+        </textarea></td></tr>
+        <datalist>< colspan="2">
+            <input type="submit" value="제출">
+            <input type="reset" value="재작성>
+            </td></tr>
+    </table>
+    <datalist id="country_name">
+            <option value="대한민국"></option>
+            <option value="미국"></option>
+            <option value="국"></option>중
+        </datalist>
+</form>
+</body>
+</html>
