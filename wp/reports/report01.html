@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML 페이지 작성</title>
+<style>
+p {font-weight: bold;
+   background-color: lightblue;
+   width: 800px;
+   padding-left: 10px; }
+</style>
 </head>
 <body>
 <h3>취업정보계정 만들기 </h3>
 <form>
-    * 필수 입력 항목<br><br>
-    기본 정보<br><br>
+    * 필수 입력 항목<br>
+    <p>기본 정보</p><br>
     이름* <input type="text" value="" size="8"><br>
     이메일* <input type="email" placeholder="id@domain_name" size="15"><br>
     암호* <input type="password" value="" size="12"><br>
     암호확인* <input type="password" value="" size="12"><br>
     모바일폰* <input type="tel" placeholder="010-0000-000" size="13"><br>
     개인홈페이지 <input type="url" placeholder="http://" size="30"><br>
-    주소* <input type="text" value="" size="30"><br><br>
-    학력<br><br>
+    주소* <input type="text" value="" size="30"><br>
+    <p>학력</p><br>
     학교 명* <input type="text" value="" size="12"><br>
     전 공* <input type="text" value="" size="12"><br>
     졸업 여부* <select name = "graduate">
@@ -24,13 +30,13 @@
               <option value="2">졸업예정</option>
               <option value="1">졸업</option>
               </select><br>
-    졸업(예정)일 <input type="date"><br><br>
-    업무 경력<br><br>
+    졸업(예정)일 <input type="date"><br>
+    <p>업무 경력</p><br>
     근무업체명 <input type="text" value="" size="20"><br>
     직위 <input type="text" value="" size="10"><br>
     담당 업무 <textarea cols="80" rows="10">이전 업체에서 담당한 업무를 기술하시오.</textarea><br>
-    근무년수 <input type="number" min="0" max="10" step="0.5">년<br><br>
-    자기소개<br><br>
+    근무년수 <input type="number" min="0" max="10" step="0.5">년<br>
+    <p>자기소개</p><br>
     첨부 파일 <input type="file"><br>
     <input type="submit" value="제출">
     <input type="reset" value="재작성">
