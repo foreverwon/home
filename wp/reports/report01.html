@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <title>HTML 페이지 작성</title>
 <style>
-p {font-weight: bold;
+    p {font-weight: bold;
    background-color: lightblue;
    width: 800px;
    padding-left: 10px; }
+    #ess{color: red;
+         font-size: 10px}
 </style>
 </head>
 <body>
 <h3>취업정보계정 만들기 </h3>
 <form>
-    * 필수 입력 항목<br>
+    <span id="ess">* 필수 입력 항목</span><br>
     <p>기본 정보</p><br>
-    이름* <input type="text" value="" size="8"><br>
-    이메일* <input type="email" placeholder="id@domain_name" size="15"><br>
-    암호* <input type="password" value="" size="12"><br>
-    암호확인* <input type="password" value="" size="12"><br>
-    모바일폰* <input type="tel" placeholder="010-0000-000" size="13"><br>
+    이름<span id="ess">*</span> <input type="text" value="" size="8"><br>
+    이메일<span id="ess">*</span> <input type="email" placeholder="id@domain_name" size="15"><br>
+    암호<span id="ess">*</span> <input type="password" value="" size="12"><br>
+    암호확인<span id="ess">*</span> <input type="password" value="" size="12"><br>
+    모바일폰<span id="ess">*</span> <input type="tel" placeholder="010-0000-000" size="13"><br>
     개인홈페이지 <input type="url" placeholder="http://" size="30"><br>
-    주소* <input type="text" value="" size="30"><br>
+    주소<span id="ess">*</span> <input type="text" value="" size="30"><br>
     <p>학력</p><br>
-    학교 명* <input type="text" value="" size="12"><br>
-    전 공* <input type="text" value="" size="12"><br>
-    졸업 여부* <select name = "graduate">
+    학교 명<span id="ess">*</span> <input type="text" value="" size="12"><br>
+    전 공<span id="ess">*</span> <input type="text" value="" size="12"><br>
+    졸업 여부<span id="ess">*</span> <select name = "graduate">
               <option value="1" selected>---선택---</option>
               <option value="2">졸업예정</option>
               <option value="1">졸업</option>
